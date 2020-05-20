@@ -17,11 +17,23 @@ This is a `loan calculator` to calculate the loan amount and show `monthley repa
  note that `Rate is fixed that is 6%`
      
  ## Dependencies used in this project : 
-   `"material-ui-core": "^5.0.1",`
+   `"material-ui-core": "^5.0.1",` ,br/>
     `"react-input-range": "^1.3.0",`
 
+
+ ## Version :
+   "name": `fullthortle-calculator`, <br/>
+   "catogries" : `calculators` <br/>
+   "License" : `MIT` <br/>
+   
+    "version": "0.1.0",
+
  
-  
+   ## Useful scripts for Developer:
+     "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
 
 
 
