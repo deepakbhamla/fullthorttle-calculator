@@ -12,10 +12,13 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## About the project :
-this is a `loan calculator` to calculate the loan amount and show `monthley repayment`.
- the `principal amount` and `time` will decie dynamically using the slider. which make it more advance and attractive.
+This is a `loan calculator` to calculate the loan amount and show `monthley repayment`.<br/>
+ The `principal amount` and `time` will decide dynamically by user using the slider. Which make it more advance and attractive.<br/>
  note that `Rate is fixed that is 6%`
      
+ ## Dependencies used in this project : 
+   `"material-ui-core": "^5.0.1",`
+    `"react-input-range": "^1.3.0",`
 
  
   
