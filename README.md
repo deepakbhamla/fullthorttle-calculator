@@ -1,8 +1,10 @@
 This project was created using React
 
-## install dependencies
+## To Run The Code in your local server 
 
-yarn install
+###`yarn install`
+    it install all the dependecies that are used in project.
+    
 
 ### `yarn start`
 
