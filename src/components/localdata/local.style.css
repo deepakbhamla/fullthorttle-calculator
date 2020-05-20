@@ -1,0 +1,29 @@
+.Local{
+    background-color: #fff;
+    margin-top: 20px;
+    margin: 10px;
+    padding:15px 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.Local{
+    background-color:;
+    border: 0.5px solid #000;
+    -webkit-box-shadow: 0 6px 6px -8px black;
+       -moz-box-shadow: 0 6px 6px -8px black;
+            box-shadow: 0 6px 6px -8px black;
+
+}
+.Local{
+    word-spacing: 2px;
+    font-family: 'Bungee Shade', cursive;
+    font-family: 'Iceland', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+.LOC{
+    margin-left: 40px;
+}

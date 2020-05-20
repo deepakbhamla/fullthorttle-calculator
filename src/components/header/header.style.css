@@ -1,0 +1,14 @@
+.header{
+  background-color:#000;
+  padding: 12px;
+  /* border-bottom: 0.5px solid #000; */
+  text-align: center;
+
+}
+.git{
+  float: right;
+  margin: 12px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+}

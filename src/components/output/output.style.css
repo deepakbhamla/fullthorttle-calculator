@@ -1,0 +1,18 @@
+.Output{
+  width: 63%;
+  padding:0px;
+  margin-top: 40px;
+
+}
+
+.Output{
+    display: flex;
+    justify-content: center;
+
+}
+@media only screen and (max-width: 600px) {
+  .Output{
+       width: 90%;
+       margin-top: 20px;
+  }
+}
