@@ -7,6 +7,22 @@
     color: #fff;
     
 }
+
+.Calc{
+  background-color:#000;
+  -webkit-box-shadow: 0 6px 6px -8px black;
+     -moz-box-shadow: 0 6px 6px -8px black;
+          box-shadow: 0 6px 6px -8px black;
+}
+
+.Calc{
+  word-spacing: 2px;
+  font-family: 'Bungee Shade', cursive;
+  font-family: 'Iceland', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 600px) {
     .Calc{
          margin-top: 10px 0px;
@@ -14,20 +30,6 @@
     }
   }
 
-.Calc{
-    background-color:#000;
-    /* border-bottom: 1px solid #000; */
-    -webkit-box-shadow: 0 6px 6px -8px black;
-       -moz-box-shadow: 0 6px 6px -8px black;
-            box-shadow: 0 6px 6px -8px black;
-}
-.Calc{
-    word-spacing: 2px;
-    font-family: 'Bungee Shade', cursive;
-    font-family: 'Iceland', cursive;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase;
-}
 
 .input-range__slider {
     appearance: none;
@@ -115,5 +117,4 @@
     position: relative;
     width: 100%; }
   
-  /*# sourceMappingURL=index.css.map */
   

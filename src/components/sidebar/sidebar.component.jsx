@@ -1,13 +1,11 @@
 
 import React from 'react';
 import clsx from 'clsx';
-
 import { makeStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
-
 import './sidebar.style.css'
 
 const useStyles = makeStyles({
@@ -25,9 +23,6 @@ const useStyles = makeStyles({
 export default function SwipeableTemporaryDrawer() {
   const classes = useStyles();
   const [state, setState] = React.useState({
-    // top: false,
-    // left: false,
-    // bottom: false,
     right: false,
   });
 
@@ -66,21 +61,21 @@ export default function SwipeableTemporaryDrawer() {
   return (
     <div>
       {['right'].map((anchor) => (
-        <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>
+      <React.Fragment key={anchor}>
+        <Button onClick={toggleDrawer(anchor, true)}>
           <span className='alaram'>  
           <ion-icon name="chevron-back-circle-outline"></ion-icon>                 
           </span> 
-         
-                       </Button>
-          <SwipeableDrawer
+        </Button>
+        
+        <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
             onOpen={toggleDrawer(anchor, true)}
           >
-            {list(anchor)}
-          </SwipeableDrawer>
+            {list()}
+       </SwipeableDrawer>
         </React.Fragment>
       ))}
     </div>

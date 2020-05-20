@@ -11,21 +11,18 @@
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: 900;
-
 }
 
 .sidebar-content{
     text-align: center;
 }
+
 .alaram{
   color: #fff;
-  /* text-align: center; */
   float: left;
   cursor: pointer;
   font-size:30px;
 }
 .al{
     color: #000;
-
-    
 }

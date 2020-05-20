@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Result from '../result/result.component'
 import './output.style.css'
+
 class Output extends Component {
   state = {
      Rate : 6,
@@ -9,7 +10,6 @@ class Output extends Component {
 
   calculateMonthlyRepayment = () => {
     const { amount, month } = this.props;
-
     const simpleIntrest = (amount*month*6)/100;
     const TotalAmount = simpleIntrest + amount;
     const monthlyRepayment = TotalAmount/month

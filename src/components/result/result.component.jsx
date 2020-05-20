@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import './result.style.css'
+
 const Result = ({ func, text }) => {
   return (
     <span className='result'>
