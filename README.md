@@ -29,13 +29,13 @@ This is a `loan calculator` to calculate the loan amount and show `monthley repa
     "version": "0.1.0",
 
    ## tool and technology used :
-       `Javascript` <br/>
-       `React-js`<br/>
-       `html5`<br/>
-       `css3`<br/>
-       `git`<br/>
-       `github`<br/>
-       `heroku`<br/>
+       Javascript <br/>
+       React-js<br/>
+       html5<br/>
+       css3<br/>
+       git<br/>
+       github<br/>
+       heroku<br/>
        
    ## Useful scripts for Developer:
      "start": "react-scripts start",
